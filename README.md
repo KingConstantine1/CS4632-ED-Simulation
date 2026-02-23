@@ -1,13 +1,28 @@
-# Emergency Department Discrete-Event Simulation
+# CS 4632 – Emergency Department Discrete-Event Simulation
 
-This repository contains the semester project for CS 4632 (Modeling and Simulation).
+This repository contains a semester project for CS 4632 (Modeling and Simulation).
+The project implements a discrete-event simulation (DES) to model patient flow in a hospital Emergency Department (ED).
 
-The goal of this project is to design and implement a discrete-event simulation
-that models patient flow through a hospital emergency department. The simulation
-will analyze patient arrivals, queueing behavior, service times, and resource
-utilization to evaluate system performance under varying conditions.
+## Implemented (Milestone 2 – Initial Implementation)
+- Poisson arrivals via exponential interarrival times (rate λ)
+- Exponential service times per server (rate μ)
+- M/M/c core structure with:
+  - FIFO waiting queue
+  - c parallel servers (staff)
+  - Event list maintained as a priority queue (min-heap)
+- Event types:
+  - ARRIVAL (creates patient, schedules next arrival, routes to server/queue)
+  - DEPARTURE (frees server, starts next queued patient if any)
+- Metrics collected after warm-up period:
+  - average wait time
+  - average system time
+  - average queue length (time-weighted)
+  - max queue length (after warm-up)
+  - staff utilization (time-weighted)
+  - throughput (patients/hour)
 
-## Project Status
-Milestone 1: Project Foundation (proposal, literature review, UML diagrams)
+## How to Run
+From the repo root:
 
-Future milestones will include implementation and experimentation.
+```bash
+python src/des_sim.py --lambda_per_hour 15 --mu_per_min 0.25 --servers 3 --T 480 --Tw 60 --seed 1
