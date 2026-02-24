@@ -189,10 +189,11 @@ class DES_EmergencyDepartment:
         p = self.patients[pid]
         p.departure_time = depart_time
 
-        # Record metrics only if patient arrived after warm-up
-        # (simple, implementable, and acceptable for M2)
-        if p.arrival_time >= self.Tw:
-            wait = (p.service_start_time - p.arrival_time) if p.service_start_time is not None else 0.0
+        # Record metrics after warm-up.
+        # Better than "arrival >= Tw" because it includes patients who arrived before Tw
+        # but begin service after Tw (carryover from warm-up).
+        if p.service_start_time is not None and p.service_start_time >= self.Tw:
+            wait = p.service_start_time - p.arrival_time
             system = (p.departure_time - p.arrival_time) if p.departure_time is not None else 0.0
             self._wait_times.append(wait)
             self._system_times.append(system)
