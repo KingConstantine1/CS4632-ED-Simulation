@@ -1,0 +1,39 @@
+{
+  "run_id": "R06",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "Faster service policy",
+  "parameters": {
+    "lambda_per_hour": 12.0,
+    "mu_per_min": 0.11666666666666667,
+    "servers": 3,
+    "T_min": 480.0,
+    "Tw_min": 60.0,
+    "seed": 463206,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.003435,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 81,
+    "arrivals_total": 97,
+    "departures_total": 97,
+    "avg_wait_min": 0.396303,
+    "max_wait_min": 5.164829,
+    "avg_system_time_min": 9.027035,
+    "avg_queue_len": 0.07643,
+    "max_queue_len_after_warmup": 2,
+    "utilization": 0.556688,
+    "throughput_per_hour": 11.571429
+  },
+  "analytic_mmc_comparison": {
+    "available": true,
+    "rho": 0.571429,
+    "P0": 0.162791,
+    "Lq": 0.425249,
+    "Wq_min": 2.126246,
+    "W_min": 10.697674,
+    "L": 2.139535
+  }
+}

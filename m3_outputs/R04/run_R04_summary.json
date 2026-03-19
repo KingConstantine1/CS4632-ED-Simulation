@@ -1,0 +1,39 @@
+{
+  "run_id": "R04",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "Relief via staffing",
+  "parameters": {
+    "lambda_per_hour": 15.0,
+    "mu_per_min": 0.1,
+    "servers": 4,
+    "T_min": 480.0,
+    "Tw_min": 60.0,
+    "seed": 463204,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.00409,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 103,
+    "arrivals_total": 117,
+    "departures_total": 115,
+    "avg_wait_min": 0.919625,
+    "max_wait_min": 12.710388,
+    "avg_system_time_min": 9.114876,
+    "avg_queue_len": 0.225527,
+    "max_queue_len_after_warmup": 5,
+    "utilization": 0.537462,
+    "throughput_per_hour": 14.714286
+  },
+  "analytic_mmc_comparison": {
+    "available": true,
+    "rho": 0.625,
+    "P0": 0.073695,
+    "Lq": 0.533095,
+    "Wq_min": 2.132378,
+    "W_min": 12.132378,
+    "L": 3.033095
+  }
+}

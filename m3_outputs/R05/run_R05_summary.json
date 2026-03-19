@@ -1,0 +1,35 @@
+{
+  "run_id": "R05",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "Reduced staffing stress",
+  "parameters": {
+    "lambda_per_hour": 12.0,
+    "mu_per_min": 0.1,
+    "servers": 2,
+    "T_min": 480.0,
+    "Tw_min": 60.0,
+    "seed": 463205,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.003072,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 63,
+    "arrivals_total": 84,
+    "departures_total": 74,
+    "avg_wait_min": 31.377008,
+    "max_wait_min": 74.020128,
+    "avg_system_time_min": 43.232443,
+    "avg_queue_len": 5.611639,
+    "max_queue_len_after_warmup": 14,
+    "utilization": 0.931738,
+    "throughput_per_hour": 9.0
+  },
+  "analytic_mmc_comparison": {
+    "available": false,
+    "reason": "unstable_system_rho_ge_1",
+    "rho": 1.0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "run_id": "R02",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "Higher arrivals",
+  "parameters": {
+    "lambda_per_hour": 12.0,
+    "mu_per_min": 0.1,
+    "servers": 3,
+    "T_min": 480.0,
+    "Tw_min": 60.0,
+    "seed": 463202,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.003381,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 78,
+    "arrivals_total": 87,
+    "departures_total": 85,
+    "avg_wait_min": 3.223619,
+    "max_wait_min": 21.373109,
+    "avg_system_time_min": 14.227764,
+    "avg_queue_len": 0.606186,
+    "max_queue_len_after_warmup": 5,
+    "utilization": 0.693144,
+    "throughput_per_hour": 11.142857
+  },
+  "analytic_mmc_comparison": {
+    "available": true,
+    "rho": 0.666667,
+    "P0": 0.111111,
+    "Lq": 0.888889,
+    "Wq_min": 4.444444,
+    "W_min": 14.444444,
+    "L": 2.888889
+  }
+}

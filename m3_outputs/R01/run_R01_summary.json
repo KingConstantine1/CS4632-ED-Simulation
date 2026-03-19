@@ -1,0 +1,39 @@
+{
+  "run_id": "R01",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "Baseline",
+  "parameters": {
+    "lambda_per_hour": 10.0,
+    "mu_per_min": 0.1,
+    "servers": 3,
+    "T_min": 480.0,
+    "Tw_min": 60.0,
+    "seed": 463201,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.003031,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 70,
+    "arrivals_total": 78,
+    "departures_total": 77,
+    "avg_wait_min": 0.317637,
+    "max_wait_min": 8.853789,
+    "avg_system_time_min": 8.931375,
+    "avg_queue_len": 0.052939,
+    "max_queue_len_after_warmup": 2,
+    "utilization": 0.52972,
+    "throughput_per_hour": 10.0
+  },
+  "analytic_mmc_comparison": {
+    "available": true,
+    "rho": 0.555556,
+    "P0": 0.172662,
+    "Lq": 0.3747,
+    "Wq_min": 2.248201,
+    "W_min": 12.248201,
+    "L": 2.041367
+  }
+}

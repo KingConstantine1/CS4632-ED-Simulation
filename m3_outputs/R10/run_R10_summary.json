@@ -1,0 +1,39 @@
+{
+  "run_id": "R10",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "High-load with 4 servers",
+  "parameters": {
+    "lambda_per_hour": 16.0,
+    "mu_per_min": 0.1,
+    "servers": 4,
+    "T_min": 480.0,
+    "Tw_min": 60.0,
+    "seed": 463210,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.003674,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 107,
+    "arrivals_total": 124,
+    "departures_total": 123,
+    "avg_wait_min": 2.48543,
+    "max_wait_min": 23.149358,
+    "avg_system_time_min": 10.829689,
+    "avg_queue_len": 0.633193,
+    "max_queue_len_after_warmup": 7,
+    "utilization": 0.56317,
+    "throughput_per_hour": 15.285714
+  },
+  "analytic_mmc_comparison": {
+    "available": true,
+    "rho": 0.666667,
+    "P0": 0.059867,
+    "Lq": 0.756837,
+    "Wq_min": 2.838137,
+    "W_min": 12.838137,
+    "L": 3.423503
+  }
+}

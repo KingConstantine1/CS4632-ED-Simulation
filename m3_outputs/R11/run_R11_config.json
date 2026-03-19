@@ -1,0 +1,11 @@
+{
+  "run_id": "R11",
+  "lambda_per_hour": 18.0,
+  "mu_per_min": 0.1,
+  "servers": 3,
+  "T": 480.0,
+  "Tw": 60.0,
+  "seed": 463211,
+  "sample_interval_min": 1.0,
+  "purpose": "Peak overload"
+}

@@ -1,0 +1,35 @@
+{
+  "run_id": "R11",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "Peak overload",
+  "parameters": {
+    "lambda_per_hour": 18.0,
+    "mu_per_min": 0.1,
+    "servers": 3,
+    "T_min": 480.0,
+    "Tw_min": 60.0,
+    "seed": 463211,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.002504,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 103,
+    "arrivals_total": 118,
+    "departures_total": 114,
+    "avg_wait_min": 5.313707,
+    "max_wait_min": 25.51593,
+    "avg_system_time_min": 14.469802,
+    "avg_queue_len": 1.320275,
+    "max_queue_len_after_warmup": 7,
+    "utilization": 0.793847,
+    "throughput_per_hour": 14.714286
+  },
+  "analytic_mmc_comparison": {
+    "available": false,
+    "reason": "unstable_system_rho_ge_1",
+    "rho": 1.0
+  }
+}

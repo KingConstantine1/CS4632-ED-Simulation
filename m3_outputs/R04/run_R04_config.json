@@ -1,0 +1,11 @@
+{
+  "run_id": "R04",
+  "lambda_per_hour": 15.0,
+  "mu_per_min": 0.1,
+  "servers": 4,
+  "T": 480.0,
+  "Tw": 60.0,
+  "seed": 463204,
+  "sample_interval_min": 1.0,
+  "purpose": "Relief via staffing"
+}

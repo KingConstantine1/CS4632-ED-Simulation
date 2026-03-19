@@ -1,0 +1,39 @@
+{
+  "run_id": "R03",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "Near saturation",
+  "parameters": {
+    "lambda_per_hour": 15.0,
+    "mu_per_min": 0.1,
+    "servers": 3,
+    "T_min": 480.0,
+    "Tw_min": 60.0,
+    "seed": 463203,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.003134,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 123,
+    "arrivals_total": 139,
+    "departures_total": 139,
+    "avg_wait_min": 22.131662,
+    "max_wait_min": 56.041773,
+    "avg_system_time_min": 31.943187,
+    "avg_queue_len": 6.47902,
+    "max_queue_len_after_warmup": 19,
+    "utilization": 0.965485,
+    "throughput_per_hour": 17.571429
+  },
+  "analytic_mmc_comparison": {
+    "available": true,
+    "rho": 0.833333,
+    "P0": 0.044944,
+    "Lq": 3.511236,
+    "Wq_min": 14.044944,
+    "W_min": 24.044944,
+    "L": 6.011236
+  }
+}

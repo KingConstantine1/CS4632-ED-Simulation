@@ -1,0 +1,11 @@
+{
+  "run_id": "R12",
+  "lambda_per_hour": 10.0,
+  "mu_per_min": 0.1,
+  "servers": 3,
+  "T": 480.0,
+  "Tw": 60.0,
+  "seed": 463212,
+  "sample_interval_min": 1.0,
+  "purpose": "Robustness repeat baseline"
+}

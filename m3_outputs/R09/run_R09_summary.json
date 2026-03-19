@@ -1,0 +1,39 @@
+{
+  "run_id": "R09",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "Long-horizon stability",
+  "parameters": {
+    "lambda_per_hour": 10.0,
+    "mu_per_min": 0.1,
+    "servers": 3,
+    "T_min": 960.0,
+    "Tw_min": 120.0,
+    "seed": 463209,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.006447,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 132,
+    "arrivals_total": 159,
+    "departures_total": 156,
+    "avg_wait_min": 1.247172,
+    "max_wait_min": 10.889638,
+    "avg_system_time_min": 11.222674,
+    "avg_queue_len": 0.214072,
+    "max_queue_len_after_warmup": 4,
+    "utilization": 0.538138,
+    "throughput_per_hour": 9.428571
+  },
+  "analytic_mmc_comparison": {
+    "available": true,
+    "rho": 0.555556,
+    "P0": 0.172662,
+    "Lq": 0.3747,
+    "Wq_min": 2.248201,
+    "W_min": 12.248201,
+    "L": 2.041367
+  }
+}

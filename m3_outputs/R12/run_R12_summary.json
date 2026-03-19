@@ -1,0 +1,39 @@
+{
+  "run_id": "R12",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "Robustness repeat baseline",
+  "parameters": {
+    "lambda_per_hour": 10.0,
+    "mu_per_min": 0.1,
+    "servers": 3,
+    "T_min": 480.0,
+    "Tw_min": 60.0,
+    "seed": 463212,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.00317,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 74,
+    "arrivals_total": 86,
+    "departures_total": 85,
+    "avg_wait_min": 2.429577,
+    "max_wait_min": 18.134334,
+    "avg_system_time_min": 13.534046,
+    "avg_queue_len": 0.428068,
+    "max_queue_len_after_warmup": 5,
+    "utilization": 0.688817,
+    "throughput_per_hour": 10.571429
+  },
+  "analytic_mmc_comparison": {
+    "available": true,
+    "rho": 0.555556,
+    "P0": 0.172662,
+    "Lq": 0.3747,
+    "Wq_min": 2.248201,
+    "W_min": 12.248201,
+    "L": 2.041367
+  }
+}

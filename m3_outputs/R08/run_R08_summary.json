@@ -1,0 +1,39 @@
+{
+  "run_id": "R08",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "Short-horizon quick test",
+  "parameters": {
+    "lambda_per_hour": 10.0,
+    "mu_per_min": 0.1,
+    "servers": 3,
+    "T_min": 240.0,
+    "Tw_min": 30.0,
+    "seed": 463208,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.00152,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 25,
+    "arrivals_total": 30,
+    "departures_total": 30,
+    "avg_wait_min": 0.572686,
+    "max_wait_min": 4.445801,
+    "avg_system_time_min": 14.305166,
+    "avg_queue_len": 0.068177,
+    "max_queue_len_after_warmup": 3,
+    "utilization": 0.55759,
+    "throughput_per_hour": 7.142857
+  },
+  "analytic_mmc_comparison": {
+    "available": true,
+    "rho": 0.555556,
+    "P0": 0.172662,
+    "Lq": 0.3747,
+    "Wq_min": 2.248201,
+    "W_min": 12.248201,
+    "L": 2.041367
+  }
+}

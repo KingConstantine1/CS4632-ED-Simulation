@@ -1,0 +1,39 @@
+{
+  "run_id": "R07",
+  "generated_utc": "2026-03-19T00:58:17+00:00",
+  "purpose": "Slower service stress",
+  "parameters": {
+    "lambda_per_hour": 10.0,
+    "mu_per_min": 0.08333333333333333,
+    "servers": 3,
+    "T_min": 480.0,
+    "Tw_min": 60.0,
+    "seed": 463207,
+    "sample_interval_min": 1.0
+  },
+  "execution": {
+    "wall_clock_seconds": 0.002981,
+    "status": "complete"
+  },
+  "metrics": {
+    "served_after_warmup": 56,
+    "arrivals_total": 65,
+    "departures_total": 64,
+    "avg_wait_min": 1.245977,
+    "max_wait_min": 9.80421,
+    "avg_system_time_min": 13.330649,
+    "avg_queue_len": 0.16613,
+    "max_queue_len_after_warmup": 3,
+    "utilization": 0.557706,
+    "throughput_per_hour": 8.0
+  },
+  "analytic_mmc_comparison": {
+    "available": true,
+    "rho": 0.666667,
+    "P0": 0.111111,
+    "Lq": 0.888889,
+    "Wq_min": 5.333333,
+    "W_min": 17.333333,
+    "L": 2.888889
+  }
+}

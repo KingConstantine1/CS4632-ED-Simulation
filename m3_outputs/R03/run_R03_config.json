@@ -1,0 +1,11 @@
+{
+  "run_id": "R03",
+  "lambda_per_hour": 15.0,
+  "mu_per_min": 0.1,
+  "servers": 3,
+  "T": 480.0,
+  "Tw": 60.0,
+  "seed": 463203,
+  "sample_interval_min": 1.0,
+  "purpose": "Near saturation"
+}
