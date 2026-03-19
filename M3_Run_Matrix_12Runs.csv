@@ -1,0 +1,13 @@
+run_id,purpose,arrival_rate_per_hour,service_rate_per_hour,servers,sim_duration_minutes,warmup_minutes,seed,expected_behavior
+R01,Baseline,10,6,3,480,60,463201,Stable baseline with low/moderate queueing
+R02,Higher arrivals,12,6,3,480,60,463202,Increased utilization and queue growth
+R03,Near saturation,15,6,3,480,60,463203,Frequent queueing and longer waits
+R04,Relief via staffing,15,6,4,480,60,463204,Wait times reduced versus R03
+R05,Reduced staffing stress,12,6,2,480,60,463205,High congestion and longer queues
+R06,Faster service policy,12,7,3,480,60,463206,Improved throughput and lower waits
+R07,Slower service stress,10,5,3,480,60,463207,Queue buildup despite moderate arrivals
+R08,Short-horizon quick test,10,6,3,240,30,463208,Similar trend with shorter runtime
+R09,Long-horizon stability,10,6,3,960,120,463209,More stable estimates and reduced variance
+R10,High-load with 4 servers,16,6,4,480,60,463210,Busy but manageable compared to 3-server case
+R11,Peak overload,18,6,3,480,60,463211,Sustained congestion and max queue spikes
+R12,Robustness repeat baseline,10,6,3,480,60,463212,Same configuration as R01 for stochastic comparison
