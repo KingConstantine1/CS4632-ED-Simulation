@@ -110,3 +110,11 @@ For unstable configurations (`rho >= 1`), analytical values are marked unavailab
 - Demo files like `demo_*.json` and `demo_outputs/` are generated locally for presentation runs.
 - Core grading artifacts are the simulation code, milestone outputs, and analysis/report deliverables.
 
+## Final Submission Notes
+
+- Final repository tag: `final-submission`
+- Primary runner used for grading-era experiments: `src/des_sim_m3.py`
+- Main reproducible batch input: `M3_12RunsForMatrix.csv`
+- Main generated batch outputs: `m3_outputs/`
+
+If you are cloning this repository fresh, run the Quick Start command above to regenerate outputs.

@@ -3,3 +3,6 @@ __pycache__/
 .env
 .vscode/
 .idea/
+demo_outputs/
+demo_*.json
+test_*.json
